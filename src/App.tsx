@@ -4,7 +4,7 @@ import cloud from './assets/MysiteSvg/cloud.svg';
 import star1 from './assets/MysiteSvg/star1.svg';
 import star2 from './assets/MysiteSvg/star2.svg';
 import star3 from './assets/MysiteSvg/star3.svg';
-import bercode from './assets/MysiteSvg/bercode.svg';
+import barcode from './assets/MysiteSvg/barcode.svg';
 import './App.css'
 
 
@@ -17,7 +17,7 @@ function App() {
       <img src={star3} />
       <img src={cloud} />
       <img src={Mysite} />
-      <img src={bercode} />
+      <img src={barcode} />
     </>
   )
 }
