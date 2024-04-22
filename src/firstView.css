@@ -1,0 +1,9 @@
+.firstViewSize {
+    transform: scale(0.8);
+    border: solid 1px #777777;
+}
+
+.outlineSvg{
+    stroke: #000000;
+    stroke-width: 1px;
+}
