@@ -5,6 +5,7 @@ import star1 from './assets/MysiteSvg/star1.svg';
 import star2 from './assets/MysiteSvg/star2.svg';
 import star3 from './assets/MysiteSvg/star3.svg';
 import barcode from './assets/MysiteSvg/barcode.svg';
+import Mysitebg from './assets/MysiteSvg/Mysitebg.svg';
 import './App.css'
 
 
@@ -18,6 +19,7 @@ function App() {
       <img src={cloud} />
       <img src={Mysite} />
       <img src={barcode} />
+      <img src={Mysitebg} />
     </>
   )
 }
