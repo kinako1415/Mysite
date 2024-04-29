@@ -17,6 +17,14 @@ html{
     z-index: 15;
 }
 
+.subTitle{
+    position: absolute;
+    top: 4rem;
+    left: 1rem;
+    z-index: 15;
+    
+}
+
 .Mysitebg{
     position: absolute;
     z-index: 0;
@@ -79,8 +87,8 @@ html{
 
 .star3-2{
     position: absolute;
-    left: 58rem;
-    top: 34rem;
+    left: 53rem;
+    top: 33rem;
     z-index: 2;
     transform: scale(0.6);
 }
@@ -134,9 +142,33 @@ html{
 .ShootingStars1{
     position: absolute;
     z-index: 1;
-    transform: scale(0.82);
+    transform: scale(0.74);
     left: -7rem;
-    top: -11rem;
+    top: -13rem;
+}
+
+.ShootingStars2{
+    position: absolute;
+    z-index: 1;
+    transform: scale(0.74);
+    left: -9rem;
+    top: 29rem;
+}
+
+.ShootingStars3{
+    position: absolute;
+    z-index: 1;
+    transform: scale(0.74);
+    left: 24rem;
+    top: -8rem;
+}
+
+.ShootingStars4{
+    position: absolute;
+    z-index: 1;
+    transform: scale(0.74);
+    left: 62rem;
+    top: 1rem;
 }
 
 #gradient-canvas {
