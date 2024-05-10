@@ -1,5 +1,5 @@
 import "./App.css";
-import FirstView from "./firstView.tsx";
+import FirstView from "./app/firstView.tsx";
 
 function App() {
   return (
