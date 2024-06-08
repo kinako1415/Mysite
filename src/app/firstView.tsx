@@ -1,20 +1,14 @@
 import "./firstView.css";
+import FirstView1 from "./../components/firstView1.tsx";
 import styled from "styled-components";
-import Mysite from "../assets/MysiteSvg/Mysite.svg";
 import cloud from "../assets/MysiteSvg/cloud.svg";
-import star1 from "../assets/MysiteSvg/star1.svg";
 import star2 from "../assets/MysiteSvg/star2.svg";
 import star3 from "../assets/MysiteSvg/star3.svg";
-import Mysitebg from "../assets/MysiteSvg/Mysitebg.svg";
-import MysiteEffect from "../assets/MysiteSvg/MysiteEffect.svg";
 import ShootingStars1 from "../assets/MysiteSvg/ShootingStars1.svg";
 import ShootingStars2 from "../assets/MysiteSvg/ShootingStars2.svg";
 import ShootingStars3 from "../assets/MysiteSvg/ShootingStars3.svg";
 import ShootingStars4 from "../assets/MysiteSvg/ShootingStars4.svg";
-import subTitle from "../assets/MysiteSvg/subTitle.svg";
 import { ReactSVG } from "react-svg";
-
-import LoadSvg from "./topSvg.tsx";
 
 import React, { useState, useEffect } from "react";
 
@@ -67,15 +61,8 @@ export default function FirstView() {
         <ReactSVG src={ShootingStars2} className="ShootingStars2"></ReactSVG>
         <ReactSVG src={ShootingStars3} className="ShootingStars3"></ReactSVG>
         <ReactSVG src={ShootingStars4} className="ShootingStars4"></ReactSVG>
-      </Topbg> jj  
-      <TopLogo>
-        <ReactSVG src={star1} className="outlineSvg star1-1"></ReactSVG>
-        <ReactSVG src={star1} className="outlineSvg star1-2"></ReactSVG>
-        <ReactSVG src={subTitle} className="outlineSvg subTitle"></ReactSVG>
-        <ReactSVG src={Mysite} className="MysiteLogo"></ReactSVG>
-        <ReactSVG src={MysiteEffect} className="MysiteEffect"></ReactSVG>
-        <ReactSVG src={Mysitebg} className="Mysitebg"></ReactSVG>
-      </TopLogo>
+      </Topbg>
+      <FirstView1 />
     </>
   );
 }

@@ -1,9 +1,5 @@
-{
+:root{
     overflow-x: hidden;
-}
-
-.firstViewSize {
-    transform: scale(0.78);
 }
 
 .outlineSvg{
@@ -15,19 +11,7 @@
     position: absolute;
     top: 2rem;
     z-index: 15;
-    /* animation: floating-y 0.9s ease-in-out infinite alternate-reverse; */
 }
-
-/* @keyframes floating-y {
-    0% {
-        transform: translateY(-0.8rem);
-    }
-    100% {
-        transform: translateY(0.8rem);
-    }
-} */
-
-
 
 .subTitle{
     position: absolute;
@@ -42,8 +26,7 @@
     position: absolute;
     z-index: 0;
     top: 9.8rem;
-    left: -5.6rem;
-    
+    left: -5.6rem; 
 }
 
 .MysiteEffect{
