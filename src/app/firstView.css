@@ -1,5 +1,5 @@
-html{
-    overflow: hidden;
+{
+    overflow-x: hidden;
 }
 
 .firstViewSize {
@@ -15,14 +15,27 @@ html{
     position: absolute;
     top: 2rem;
     z-index: 15;
+    /* animation: floating-y 0.9s ease-in-out infinite alternate-reverse; */
 }
+
+/* @keyframes floating-y {
+    0% {
+        transform: translateY(-0.8rem);
+    }
+    100% {
+        transform: translateY(0.8rem);
+    }
+} */
+
+
 
 .subTitle{
     position: absolute;
-    top: 4rem;
-    left: 1rem;
+    top: 2.8rem;
+    left: -1rem;
     z-index: 15;
-    
+    animation: floating-y 0.9s ease-in-out infinite alternate-reverse;
+    animation-delay: 0.2s;
 }
 
 .Mysitebg{
@@ -30,6 +43,7 @@ html{
     z-index: 0;
     top: 9.8rem;
     left: -5.6rem;
+    
 }
 
 .MysiteEffect{
@@ -37,17 +51,18 @@ html{
     z-index: 16;
     left: -11rem;
     top: 0rem;
+    transform: scale(1);
 }
 
 .star1-1{
     position: absolute;
-    left: -16rem;
+    left: -14rem;
     z-index: 16;
 }
 
 .star1-2{
     position: absolute;
-    transform:scale(0.6);
+    transform:scale(0.9);
     left:74rem;
     top:24rem;
     z-index: 16;
@@ -56,38 +71,38 @@ html{
 .star2-1{
     position: absolute;
     transform: scale(0.7);
-    left: 79rem;
-    top: 6rem;
+    left: 74rem;
+    top: 40rem;
     z-index: 2;
 }
 
 .star2-2{
     position: absolute;
-    left: 12.9rem;
-    transform: scale(0.6);
-    top: 0.6rem;
+    left: 1rem;
+    transform: scale(0.8);
+    top: 1rem;
     z-index: 2;
 }
 
 .star2-3{
     position: absolute;
-    left: 8rem;
-    top: 36rem;
+    left: 3rem;
+    top: 42rem;
     transform: scale(0.7);
     z-index: 2;
 }
 
 .star3-1{
     position: absolute;
-    left: 24rem;
-    top: -2rem;
+    left: 28rem;
+    top: 6rem;
     z-index: 2;
     transform: scale(0.7);
 }
 
 .star3-2{
     position: absolute;
-    left: 53rem;
+    left: 60rem;
     top: 33rem;
     z-index: 2;
     transform: scale(0.6);
@@ -95,10 +110,10 @@ html{
 
 .cloud1-1{
     position: absolute;
-    transform: scale(0.38);
+    transform: scale(0.4);
     left: 33rem;
-    top: 6rem;
-    z-index: 0;
+    top: 7rem;
+    z-index: 1;
 }
 
 .cloud1-2{
@@ -106,31 +121,31 @@ html{
     transform: scale(0.7);
     left: 48rem;
     top: 3rem;
-    z-index: 0;
+    z-index: 1;
 }
 
 .cloud1-3{
     position: absolute;
-    transform: scale(0.5);
-    left: 13rem;
-    top: -4rem;
-    z-index: 0;
+    transform: scale(0.4);
+    left: 11rem;
+    top: -3rem;
+    z-index: 1;
 }
 
 .cloud1-4{
     position: absolute;
-    transform: scale(0.7);
-    left: 9rem;
-    top: 37rem;
-    z-index: 0;
+    transform: scale(0.6);
+    left: -1rem;
+    top: 32rem;
+    z-index: 1;
 }
 
 .cloud1-5{
     position: absolute;
-    transform: scale(0.5);
+    transform: scale(0.8);
     left: 42rem;
     top: 40rem;
-    z-index: 0;
+    z-index: 1;
 }
 
 .barcode{
@@ -141,32 +156,32 @@ html{
 
 .ShootingStars1{
     position: absolute;
-    z-index: 1;
-    transform: scale(0.74);
-    left: -7rem;
-    top: -13rem;
+    z-index: 0;
+    transform: scale(0.9);
+    left: -10rem;
+    top: -10rem;
 }
 
 .ShootingStars2{
     position: absolute;
-    z-index: 1;
-    transform: scale(0.74);
-    left: -9rem;
-    top: 29rem;
+    z-index: 0;
+    transform: scale(0.9);
+    left: -12rem;
+    top: 18rem;
 }
 
 .ShootingStars3{
     position: absolute;
-    z-index: 1;
-    transform: scale(0.74);
+    z-index: 0;
+    transform: scale(0.9);
     left: 24rem;
-    top: -8rem;
+    top: -7rem;
 }
 
 .ShootingStars4{
     position: absolute;
-    z-index: 1;
-    transform: scale(0.74);
+    z-index: 0;
+    transform: scale(0.9);
     left: 62rem;
     top: 1rem;
 }
@@ -178,7 +193,7 @@ html{
     width:100%;
     height:100%;
     --gradient-color-1: #ffc3e4; 
-    --gradient-color-2: #FBA6B1; 
+    --gradient-color-2: #f896a3; 
     --gradient-color-3: #FBBEE8;  
-    --gradient-color-4: #F3E3F8;
+    --gradient-color-4: #f9f0fb;
   }

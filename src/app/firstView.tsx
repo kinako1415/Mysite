@@ -1,19 +1,20 @@
 import "./firstView.css";
 import styled from "styled-components";
-import Mysite from "./assets/MysiteSvg/Mysite.svg";
-import cloud from "./assets/MysiteSvg/cloud.svg";
-import star1 from "./assets/MysiteSvg/star1.svg";
-import star2 from "./assets/MysiteSvg/star2.svg";
-import star3 from "./assets/MysiteSvg/star3.svg";
-import barcode from "./assets/MysiteSvg/barcode.svg";
-import Mysitebg from "./assets/MysiteSvg/Mysitebg.svg";
-import MysiteEffect from "./assets/MysiteSvg/MysiteEffect.svg";
-import ShootingStars1 from "./assets/MysiteSvg/ShootingStars1.svg";
-import ShootingStars2 from "./assets/MysiteSvg/ShootingStars2.svg";
-import ShootingStars3 from "./assets/MysiteSvg/ShootingStars3.svg";
-import ShootingStars4 from "./assets/MysiteSvg/ShootingStars4.svg";
-import subTitle from "./assets/MysiteSvg/subTitle.svg";
+import Mysite from "../assets/MysiteSvg/Mysite.svg";
+import cloud from "../assets/MysiteSvg/cloud.svg";
+import star1 from "../assets/MysiteSvg/star1.svg";
+import star2 from "../assets/MysiteSvg/star2.svg";
+import star3 from "../assets/MysiteSvg/star3.svg";
+import Mysitebg from "../assets/MysiteSvg/Mysitebg.svg";
+import MysiteEffect from "../assets/MysiteSvg/MysiteEffect.svg";
+import ShootingStars1 from "../assets/MysiteSvg/ShootingStars1.svg";
+import ShootingStars2 from "../assets/MysiteSvg/ShootingStars2.svg";
+import ShootingStars3 from "../assets/MysiteSvg/ShootingStars3.svg";
+import ShootingStars4 from "../assets/MysiteSvg/ShootingStars4.svg";
+import subTitle from "../assets/MysiteSvg/subTitle.svg";
 import { ReactSVG } from "react-svg";
+
+import LoadSvg from "./topSvg.tsx";
 
 import React, { useState, useEffect } from "react";
 
@@ -37,8 +38,8 @@ const Topbg = styled.div`
 const TopLogo = styled.div`
   position: relative;
   transform: scale(0.75);
-  left: 3.4rem;
-  top: 7rem;
+  left: 2.9rem;
+  top: 9rem;
   z-index: 10;
 `;
 
@@ -57,7 +58,6 @@ export default function FirstView() {
         <ReactSVG src={star2} className="star2-3"></ReactSVG>
         <ReactSVG src={star3} className="star3-1"></ReactSVG>
         <ReactSVG src={star3} className="star3-2"></ReactSVG>
-        <ReactSVG src={barcode} className="barcode"></ReactSVG>
         <ReactSVG src={cloud} className="cloud1-1"></ReactSVG>
         <ReactSVG src={cloud} className="cloud1-2"></ReactSVG>
         <ReactSVG src={cloud} className="cloud1-3"></ReactSVG>
@@ -67,7 +67,7 @@ export default function FirstView() {
         <ReactSVG src={ShootingStars2} className="ShootingStars2"></ReactSVG>
         <ReactSVG src={ShootingStars3} className="ShootingStars3"></ReactSVG>
         <ReactSVG src={ShootingStars4} className="ShootingStars4"></ReactSVG>
-      </Topbg>
+      </Topbg> jj  
       <TopLogo>
         <ReactSVG src={star1} className="outlineSvg star1-1"></ReactSVG>
         <ReactSVG src={star1} className="outlineSvg star1-2"></ReactSVG>
