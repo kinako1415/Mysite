@@ -15,34 +15,40 @@ const TopLogo = styled.div`
   left: 2.9rem;
   top: 9rem;
   z-index: 10;
-  outlineSvg {
+  .subTitle {
+    position: absolute;
+    top: 2.8rem;
+    left: -1rem;
+    z-index: 15;
+  }
+  .outlineSvg {
     stroke: #000000;
     stroke-width: 1px;
   }
-  Mysitebg {
+  .Mysitebg {
     position: absolute;
     z-index: 0;
     top: 9.8rem;
     left: -5.6rem;
   }
-  MysiteLogo {
+  .MysiteLogo {
     position: absolute;
     top: 2rem;
     z-index: 15;
   }
-  MysiteEffect {
+  .MysiteEffect {
     position: absolute;
     z-index: 16;
     left: -11rem;
     top: 0rem;
     transform: scale(1);
   }
-  star1-1 {
+  .star1-1 {
     position: absolute;
     left: -14rem;
     z-index: 16;
   }
-  star1-2 {
+  .star1-2 {
     position: absolute;
     transform: scale(0.9);
     left: 74rem;
@@ -51,15 +57,15 @@ const TopLogo = styled.div`
   }
 `;
 
-const FirstView1 = (): ReactElement => {
-  <TopLogo>
-    <ReactSVG src={star1} className="outlineSvg star1-1"></ReactSVG>
-    <ReactSVG src={star1} className="outlineSvg star1-2"></ReactSVG>
-    <ReactSVG src={subTitle} className="outlineSvg subTitle"></ReactSVG>
-    <ReactSVG src={Mysite} className="MysiteLogo"></ReactSVG>
-    <ReactSVG src={MysiteEffect} className="MysiteEffect"></ReactSVG>
-    <ReactSVG src={Mysitebg} className="Mysitebg"></ReactSVG>
-  </TopLogo>;
-};
-
-export default FirstView1;
+export default function FirstView1(): ReactElement {
+  return (
+    <TopLogo>
+      <ReactSVG src={star1} className="outlineSvg star1-1"></ReactSVG>
+      <ReactSVG src={star1} className="outlineSvg star1-2"></ReactSVG>
+      <ReactSVG src={subTitle} className="outlineSvg subTitle"></ReactSVG>
+      <ReactSVG src={Mysite} className="MysiteLogo"></ReactSVG>
+      <ReactSVG src={MysiteEffect} className="MysiteEffect"></ReactSVG>
+      <ReactSVG src={Mysitebg} className="Mysitebg"></ReactSVG>
+    </TopLogo>
+  );
+}
